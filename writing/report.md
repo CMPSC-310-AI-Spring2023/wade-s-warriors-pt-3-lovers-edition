@@ -13,7 +13,6 @@
 | Sunday Feb 5 |   Finish Debugging and Testing, Prepare Final Report   |
 | Monday Feb 6 |   Finish Entirety of the Project, Prepare Demonstration   |
 
-
 ### Hardware 
 
 - Arduino board
