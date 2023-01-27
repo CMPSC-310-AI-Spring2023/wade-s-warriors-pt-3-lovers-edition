@@ -13,7 +13,7 @@
 | Sunday Feb 5 |   Finish Debugging and Testing, Prepare Final Report   |
 | Monday Feb 6 |   Finish Entirety of the Project, Prepare Demonstration   |
 
-### Hardware 
+### Hardware
 
 - Arduino board
 - 5 mm LED: Red
@@ -21,8 +21,9 @@
 - Generic LED
 - 2K Resistors
 - Cables
-- Velcro 
+- Velcro
 - Cardboard
+- Mini speaker (https://www.amazon.com/Gikfun-Speaker-Stereo-Loudspeaker-Arduino/dp/B01CHYIU26/ref=sr_1_1_sspa?keywords=arduino+speaker&qid=1674831056&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzU1FXNUdFMzNGNkpSJmVuY3J5cHRlZElkPUEwMTYwNzQzMVhPMTlPQ05XQkJFViZlbmNyeXB0ZWRBZElkPUEwNzc4MjIxMTU5UFgzT0VRNFg2NCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 
 ### Tools
 
@@ -33,7 +34,7 @@
 ## Arduino Project
 
 TODO:
-Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include  references of all sources you have used throughout this project (URLs are sufficient).
+Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include references of all sources you have used throughout this project (URLs are sufficient).
 
 ## Agent
 
@@ -43,7 +44,7 @@ Explain the characteristics/attributes of your agent, what makes it an agent (wi
 ## Challenges and Learning Experiences
 
 TODO:
-Discuss any challenges you have encountered during the work on this lab and  describe what have you learned. 
+Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
 
 ## Ethical Benefits and Implications
 
@@ -63,4 +64,4 @@ In this section, drawing on class discussions and readings, answer the following
 ## Team Work
 
 TODO:
-Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member. 
+Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
