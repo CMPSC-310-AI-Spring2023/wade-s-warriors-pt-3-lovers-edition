@@ -1,4 +1,4 @@
-# Report by Add Your Names Here
+# Report by Jacob Boord, Jacob King, Stephen Cullinan
 
 ## Planning, due on January 27th, 2023 by 9:30am
 
@@ -6,15 +6,29 @@
 
 | Timeline  | Tasks |
 | ----------- | ----------- |
-|   dates    |    task 1   |
+| Monday Jan 30 |   Gather Materials   |
+| Monday Jan 30 |   Begin Wiring   |
+| Wednesday Feb 1 |   Finish Initial Wiring, Begin Coding & Housing Construction   |
+| Friday Feb 3 |   Finish First Model  |
+| Sunday Feb 5 |   Finish Debugging and Testing, Prepare Final Report   |
+| Monday Feb 6 |   Finish Entirety of the Project, Prepare Demonstration   |
 
 ### Hardware 
 
-TODO:
-
 - Arduino board
+- 5 mm LED: Red
+- 5 mm LED: Green
+- Generic LED
+- 2K Resistors
+- Cables
+- Velcro 
+- Cardboard
 
-- in an itemized list, specify specific sensors, motors, etc. to be used in your project
+### Tools
+
+- Soldering Iron
+- Hot Glue Gun
+- Soldering Wire
 
 ## Arduino Project
 
