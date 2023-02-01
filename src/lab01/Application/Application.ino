@@ -33,8 +33,11 @@ void loop()
 {
   if (analogRead(A0) > 60)
   {
+    // turns on the red LED if there is a lie detected
     digitalWrite(4, HIGH);
-    // iterate over the notes of the melody:
+
+    // Also plays a sound if a lie is detected
+    //  iterate over the notes of the melody:
 
     for (int thisNote = 0; thisNote < 8; thisNote++)
     {
@@ -63,6 +66,7 @@ void loop()
     {
       digitalWrite(4, LOW);
     }
+    // This part has a green light on if the amplitude is above 20, which is not indicatve of a lie
     if (analogRead(A0) > 20)
     {
       digitalWrite(2, HIGH);
@@ -71,6 +75,7 @@ void loop()
     {
       digitalWrite(2, LOW);
     }
+    // This detects a medium likelihood of a lie and turns on the yellow light
     if (analogRead(A0) > 45)
     {
       digitalWrite(3, HIGH);
