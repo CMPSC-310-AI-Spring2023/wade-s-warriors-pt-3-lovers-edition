@@ -8,8 +8,8 @@ Jake, Stephen, and Jake
 // notes in the melody:
 int melody[] = {
 
-    NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4};
-
+    // NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4};
+    NOTE_C4, 0, 0, 0, 0, NOTE_C4, 0, 0, 0, 0};
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
 
@@ -21,17 +21,17 @@ void setup()
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
-  digitalWrite(2, HIGH);
-  delay(500);
-  digitalWrite(3, HIGH);
-  delay(500);
-  digitalWrite(4, HIGH);
-  delay(500);
+  // digitalWrite(2, HIGH);
+  // delay(500);
+  // digitalWrite(3, HIGH);
+  // delay(500);
+  // digitalWrite(4, HIGH);
+  // delay(500);
 }
 
 void loop()
 {
-  if (analogRead(A0) > 60)
+  if (analogRead(A0) > 800)
   {
     // turns on the red LED if there is a lie detected
     digitalWrite(4, HIGH);
@@ -62,30 +62,30 @@ void loop()
 
       noTone(8);
     }
-    else
-    {
-      digitalWrite(4, LOW);
-    }
-    // This part has a green light on if the amplitude is above 20, which is not indicatve of a lie
-    if (analogRead(A0) > 20)
-    {
-      digitalWrite(2, HIGH);
-    }
-    else
-    {
-      digitalWrite(2, LOW);
-    }
-    // This detects a medium likelihood of a lie and turns on the yellow light
-    if (analogRead(A0) > 45)
-    {
-      digitalWrite(3, HIGH);
-    }
-    else
-    {
-      digitalWrite(3, LOW);
-    }
-
-    Serial.println(analogRead(A0));
-    delay(20);
   }
+  else
+  {
+    digitalWrite(4, LOW);
+  }
+  // This part has a green light on if the amplitude is above 20, which is not indicatve of a lie
+  if (analogRead(A0) > 200)
+  {
+    digitalWrite(2, HIGH);
+  }
+  else
+  {
+    digitalWrite(2, LOW);
+  }
+  // This detects a medium likelihood of a lie and turns on the yellow light
+  if (analogRead(A0) > 600)
+  {
+    digitalWrite(3, HIGH);
+  }
+  else
+  {
+    digitalWrite(3, LOW);
+  }
+
+  Serial.println(analogRead(A0));
+  delay(20);
 }
