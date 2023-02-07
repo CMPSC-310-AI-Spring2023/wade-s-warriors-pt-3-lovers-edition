@@ -8,8 +8,7 @@ Jake, Stephen, and Jake
 // notes in the melody:
 int melody[] = {
 
-    // NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4};
-    NOTE_C4, 0, 0, 0, 0, NOTE_C4, 0, 0, 0, 0};
+    NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4};
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
 
@@ -21,12 +20,6 @@ void setup()
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
-  // digitalWrite(2, HIGH);
-  // delay(500);
-  // digitalWrite(3, HIGH);
-  // delay(500);
-  // digitalWrite(4, HIGH);
-  // delay(500);
 }
 
 void loop()
@@ -68,7 +61,7 @@ void loop()
     digitalWrite(4, LOW);
   }
   // This part has a green light on if the amplitude is above 20, which is not indicatve of a lie
-  if (analogRead(A0) > 200)
+  if (analogRead(A0) > 100)
   {
     digitalWrite(2, HIGH);
   }
@@ -77,7 +70,7 @@ void loop()
     digitalWrite(2, LOW);
   }
   // This detects a medium likelihood of a lie and turns on the yellow light
-  if (analogRead(A0) > 600)
+  if (analogRead(A0) > 400)
   {
     digitalWrite(3, HIGH);
   }
