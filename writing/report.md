@@ -75,5 +75,6 @@ In this section, drawing on class discussions and readings, answer the following
 
 ## Team Work
 
-TODO:
 Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
+
+Our team worked well together, with each person understanding their roles. We worked mainly through the strengths of each individual to meet the time constraint on the given project. Jacob King was the main programmer, as he had the most understanding of manipulating the code through C and C++. Although no previous background information, he was able to learn quickly through lots of manipulation while moving things around with our Arduino. Stephen and Jacob Boord worked mainly with wiring and construction of the Agent and its housing. Given our backgrounds in working with circuits in previous experiences. Working this way, we were able to go from zero knowledge on Arduino and C or C++ to having a fully furnished project. We also collaborated on all written portions of the report.
