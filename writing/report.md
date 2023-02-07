@@ -52,8 +52,11 @@ PEAS
 
 ## Challenges and Learning Experiences
 
-TODO:
 Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
+
+Our group struggled at first to collect ideas for a functional agent that reads the environment and reacts to a given scenario. After spending a long time mulling various ideas, we decided to move forward with our own rendition of a lie detector that combines the ideas of previous creators along with our own twist.
+
+After this decision, we had to overcome two major challenges: we don't know C or C++ and have never worked with Arduino. This posed a major threat to our ability to adapt the projects to make it our own. In order to overcome this, we leveraged knowledge of other programming classes along with relying on YouTube and other open source projects in order to piece together the code and understand circuiting with Arduino. The schematics were fairly straightforward; however, we experienced problems with understanding the LEDs on our bread board. Through much trial and error, we were able to overcome these struggles and move forward with finishing the project. This only set us back about two days on our intial timeline.
 
 ## Ethical Benefits and Implications
 
