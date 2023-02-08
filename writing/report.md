@@ -55,10 +55,6 @@ Environment: Skin conductivity of the person being interrogated, Temperature of 
 Actuators: Speaker, Lights, Graph
 Sensors: Finger Attachments
 
-
-
-
-
 ## Challenges and Learning Experiences
 
 Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
