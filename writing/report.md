@@ -35,7 +35,7 @@
 
 Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include references of all sources you have used throughout this project (URLs are sufficient).
 
-The application our group decided to create and modify was a lie detector with a playable sound. In order to do so, we relied on two separate public projects on https://www.hackster.io. The first project, which served as the base of the project, was the lie detector. A project from 2016 by Daniel Roumega, the lie detector is a project that exctied the group and inspired us to explore the arduino first. The project can be found at https://www.hackster.io/BuildItDR/arduino-lie-detector-a0b914. Referencing this projet, we noticed that there was no audio alert to a lie, only a simple visual cue with LEDs. In order to play tunes through our speaker modification, we refernced https://www.hackster.io/Rad_Silviu/speaker-with-arduino-be454c. Finally, various YouTube videos on wiring the Arduino and coding in C and C++  helped connect the dots with debugging small issues within the wiring and coding portions of the project.
+The application our group decided to create and modify was a lie detector with a playable sound. In order to do so, we relied on two separate public projects on (https://www.hackster.io). The first project, which served as the base of the project, was the lie detector. A project from 2016 by Daniel Roumega, the lie detector is a project that exctied the group and inspired us to explore the arduino first. The project can be found at (https://www.hackster.io/BuildItDR/arduino-lie-detector-a0b914). Referencing this projet, we noticed that there was no audio alert to a lie, only a simple visual cue with LEDs. In order to play tunes through our speaker modification, we refernced (https://www.hackster.io/Rad_Silviu/speaker-with-arduino-be454c). Finally, various YouTube videos on wiring the Arduino and coding in C and C++  helped connect the dots with debugging small issues within the wiring and coding portions of the project.
 
 Overall, the application is useful for being able to take in environmental data through the form of conductivity in the skin and make the agent react. 
 
@@ -46,7 +46,7 @@ Explain the characteristics/attributes of your agent, what makes it an agent (wi
 The agent our group has constructed utilizes environmental data inputs through the finger wrap attachments. The finger wrap attachments are lined with aluminum foil to allow for the connecting wire to maintain a consistent contact with the skin. The idea behind the lie detector is that if one is lying, the skin will have increased persperation. Upon having that increase, the skin becomes more conductive. The agent reacts to this increase by activating a series of yellow and red LEDs and playing a sound through the speaker. If the subject tells the truth, there will be no such spike and show a green (valid) LED.
 
 TODO:
-The agent 
+The agent type, rational, etc
 
 PEAS
 
@@ -60,18 +60,35 @@ After this decision, we had to overcome two major challenges: we don't know C or
 
 ## Ethical Benefits and Implications
 
-TODO:
 In this section, drawing on class discussions and readings, answer the following questions
 
 1. What entities, businesses, organizations do you envision developing the type of the application you have chosen to develop?
 
+Seeing as though this technology is already developed along with already in use, polygraphs are mainily implemented and developed by law enforcement agencies and their independent contractors.
+
 2. Who are the intended users of this technology?
+
+Given the project is building on an already utilized technology, the current users are mainly law enforcement agencies. Law enforcement agencies utilize the technology to interview suspects or witnesses in crimes to understand what happened. It has been used in the court of law as well when prosectuers or defenders produce evidence for or against the defendant in a trial. Overall, there has been much controversy over the efficacy of lie detector technology.
+
+Professionals trained with polygraphs should be the main users of this technology in order to minimize the ability to have lowered levels of error in the interpretation of the data.
 
 3. Who is not supposed to use this technology?
 
+The technology is not intended for those looking to abuse the lie detector. As normal polygraphs are deemed ineffective on a broader scale, if they are used in daily life, they can be abused for personal gain. For example, an employer may want to polygraph workers to see if they are doing all the work they can or a school teacher may want to use it to interview a group of kids that were suspected of cheating on a test. In doing so, these users are going against what a polygraph should be used for. The only intention for this technology should be done under professional training and extenuous circumstances like that of a major crime.
+
+A prime example of this can be found on a Jimmy Fallon skit (https://www.youtube.com/watch?v=KPgpRw9tiuM) where they use it on little kids. While this is for a skit, these children are being subject to an irresponsible use of the technology. Although it is a fake polygraph being used, the children believe that it is real.
+
 4. How can the application developed in this lab cause harm?
 
+If abused, like previously mentioned, or the results are simply misinterpreted, then subjects could be deemed as liars when in reality they could be telling the truth. Utilizing skin conductivity, the technology is able to pick up on changes on the skin.
+
+If these results are then used against a subject in an unjust manner, it could lead to severe consequences in their lives down the road. As for the kids previously mentioned, this could lead to trauma, etc. So while the technology can be seen as innovative and fun to play around with, if it is abused, it can lead to personal damages to the subject.
+
 5. What solutions could be implemented to avoid the harm or to fix the harm described above?
+
+In order to avoid the technology falling into the wrong hands, companies producing the technology need to ensure that they are only selling to a select population i.e. only law enforcement. Furthermore, the technology should be accompanied with trainers to train specialists in the field of conducting out the tests along with interpreting the data. This will help reduce errors in the human analysis of the data.
+
+As for skin conudctivity, this is a strong measure within itself. There, however, is possibly better ways to measure when subjects are lying. This would be a great segment into deeper research and learning.
 
 ## Team Work
 
