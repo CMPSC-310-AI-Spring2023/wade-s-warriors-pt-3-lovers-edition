@@ -23,9 +23,7 @@
 - Cables
 - Velcro
 - Cardboard
-- Mini speaker 
-
-### Tools
+- Mini speaker
 
 - Soldering Iron
 - Hot Glue Gun
